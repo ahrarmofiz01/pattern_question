@@ -1,2 +1,8 @@
-for i in range(1,10):
-    print(i)
+freq={}
+freq["a"]=1
+print(freq)
+print(freq["a"])
+if "a" in freq:
+    print("yes")
+else:
+     print("not")
