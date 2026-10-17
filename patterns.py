@@ -16,3 +16,9 @@ nums=[10,20,30,40,50]
 for i in range(len(nums)):
     r=nums[0]
 print(r)
+nums = [4, 7, 4, 9]
+seen = {}
+
+for i in range(len(nums)):
+    num = nums[0]
+    seen[num] = 0
