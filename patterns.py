@@ -1,8 +1,14 @@
+nums=[1,1,2,3,4,5,6,6,6,6]
 freq={}
-freq["a"]=1
+for i in range(len(nums)):
+    j=nums[i]
+    if j in freq:
+        freq[j].append(i)
+    else:
+        freq[j]=[i]
 print(freq)
-print(freq["a"])
-if "a" in freq:
-    print("yes")
-else:
-     print("not")
+nums = [2, 3, 2, 5, 3, 2]
+sum=0
+for i in nums:
+    sum=sum+i
+print(sum)
