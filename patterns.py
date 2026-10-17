@@ -14,5 +14,5 @@ for i in nums:
 print(sum)
 nums=[10,20,30,40,50]
 for i in range(len(nums)):
-    r=nums[2]
+    r=nums[0]
 print(r)
