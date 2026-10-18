@@ -1,13 +1,14 @@
-word="ahrar"
+word="aaaannnnnnnooopppllmmmdddnnncccnnnnnnnnnn"
 
 seen={}
 for i in range(len(word)):
-    j=word[i]
-    if j in seen:
-        seen[j]= seen[j]+1
+    r=word[i]
+    if r in seen:
+        seen[r]=seen[r]+1
     else:
-        seen[j]=1
+        seen[r]=1
 print(seen)
+
   
   
 
