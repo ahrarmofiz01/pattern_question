@@ -1,16 +1,5 @@
 for i in range(1,5):
-    for j in range(1,i+1):
+    for j in range(1,10):
         print("#",end="")
-    print()
- #pyramid code
-n = 5
-
-for i in range(1, n + 1):
-    for j in range(n - i):
-        print(" ", end="")
-
-    for j in range(2 * i - 1):
-        print("*", end="")
-
     print()
     
